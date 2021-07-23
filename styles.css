@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+ul {
+  color: indianred;
+  font-size: x-large;
+  list-style-type: disc;
+  list-style-position: inside;
+  line-height: 50px;
+  user-select: none;  
+  cursor: pointer; 
+  text-align:center;
+  margin-right: 50px;
+  padding: 0;
+  
+
+
+}
+
+::placeholder{
+  color: white;
+  margin-right: 15px;
+  
+  
+}
+#item-input{
+  color: white;
+  background-color:indianred;
+  height: 50px;
+  width: 350px;
+  border-radius: 50px;
+  font-size: large;
+  text-align: center;
+  border: 5px solid indianred;
+  margin-right: -65px;
+  padding: 1px;
+  outline: none;
+  
+  
+  
+}
+#myBtn{
+  color: indianred;
+  background-color:white;
+  height: 62px;
+  width: 62px;
+  border-radius: 50px;
+  font-size: large;
+  text-align: center;
+  border: 2px solid indianred;
+  cursor: pointer;
+  outline: none
+
+}
+
+h1{
+  text-align: center;
+  color: indianred;
+  margin-top: 250px;
+}
+
+label{
+  margin: auto;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+ 
+  ;
+}
+
+div{
+  text-align:center
+  
+}
+
+button{
+  color: white;
+  background-color: indianred;
+  border-radius: 50px;
+  border: 2px solid indianred;
+  outline: none;
+  
+}
+
+/* ID(#name) > CLASS(.name) > Element (h1, p, etc.) in that order
+// placeholder uses :: for some reason
